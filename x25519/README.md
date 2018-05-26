@@ -9,7 +9,7 @@ cat key.pem
 ```
 
 Note you will need to install the latest master of [openssl](https://github.com/openssl/openssl)
-by hand on OSX:
+by hand on OSX as [X25519 support](https://www.openssl.org/docs/manmaster/man7/X25519.html) is a very recent feature:
 
 ```
 git clone https://github.com/openssl/openssl ~/dev/tmp/openssl
