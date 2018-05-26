@@ -2,6 +2,10 @@
 
 ```
 make example && ./example > key.pem
+cat key.pem
+# -----BEGIN PRIVATE KEY-----
+# MC4CAQAwBQYDK2VuBCIEICAkIrg/QDl0sdHLi62JzGwioUwi7Kv9cDZ+BMTEDexI
+# -----END PRIVATE KEY-----
 ```
 
 Note you will need to install the latest master of [openssl](https://github.com/openssl/openssl)
